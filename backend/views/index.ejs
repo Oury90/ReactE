@@ -1,0 +1,19 @@
+<%- include('head.ejs'); -%>
+
+<div class="container">
+    <h1>Information for my App!</h1>
+    <% if(locals.posts){ %>
+        <% posts.forEach((post) =>{ %>
+            <div>
+                <h2><%= post.title %></h2>
+                <p><%= post.content %></p>
+                <a href="/edit/<%= post.id %>">Edit</a>
+                <a href="/delete/<%= post.id %>">Delete</a>
+                <hr/>
+            </div>
+        <% }) %>
+        
+    <% } %>
+</div>
+
+<%- include('footer.ejs'); -%>
