@@ -1,0 +1,29 @@
+.header{
+    background-color: darkgoldenrod;
+    width: 100%;
+}
+.header h1{
+    color: white;
+    padding: 12px 8px;
+}
+.card{
+    width: 200px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 1px 2px 2px 1px rgba(0,0,0,0.123);
+}
+.image{
+    width: 50px;
+    min-height: 50px;
+}
+.box-cart{
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 1px 2px 2px 1px rgba(0,0,0,0.123);
+    content: cover;
+}
+.container-box{
+    display: flex;
+}
